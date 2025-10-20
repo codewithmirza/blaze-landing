@@ -1,25 +1,33 @@
 /**
  * For more details on how to configure Wrangler, refer to:
  * https://developers.cloudflare.com/workers/wrangler/configuration/
- */ {
+ */ 
+{
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "blaze-landing",
   "main": ".open-next/worker.js",
   "compatibility_date": "2025-10-08",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+
   "assets": {
-    "binding": "ASSETS",
-    "directory": ".open-next/assets"
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
   },
+
   "observability": {
     "enabled": true
   },
+
   "upload_source_maps": true,
-  "custom_domains": [
+
+  // 👇 this must be inside the "routes" array instead of "custom_domains"
+  "routes": [
     {
-      "domain": "www.blazeit.app",
-      "zone_name": "blazeit.app"
+      "pattern": "www.blazeit.app",
+      "zone_name": "blazeit.app",
+      "custom_domain": true
     }
   ],
-  "workers_dev": true
+
+  "workers_dev": false
 }
