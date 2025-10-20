@@ -13,8 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Blaze It - Trade on Aptos",
-  description: "Trade on Aptos with Blaze It",
+  title: "Blaze It - Gamified Crypto Trading on Aptos",
+  description: "A brutalist, swipe-based crypto trading platform with competitive portfolio quests on the Aptos network. Trade crypto like a game.",
+  keywords: "crypto trading, aptos, gamified trading, portfolio quests, brutalist design, swipe trading",
+  openGraph: {
+    title: "Blaze It - Gamified Crypto Trading on Aptos",
+    description: "A brutalist, swipe-based crypto trading platform with competitive portfolio quests on the Aptos network.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
