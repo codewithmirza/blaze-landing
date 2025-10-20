@@ -15,10 +15,9 @@
     "enabled": true
   },
   "upload_source_maps": true,
-  "routes": [
+  "custom_domains": [
     {
-      "pattern": "www.blazeit.app",
-      "custom_domain": true,
+      "domain": "www.blazeit.app",
       "zone_name": "blazeit.app"
     }
   ],
