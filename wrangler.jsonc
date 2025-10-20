@@ -19,8 +19,7 @@
     {
       "pattern": "www.blazeit.app",
       "custom_domain": true,
-      "zone_name": "blazeit.app",
-      "override_existing_dns_record": true
+      "zone_name": "blazeit.app"
     }
   ],
   "workers_dev": true
