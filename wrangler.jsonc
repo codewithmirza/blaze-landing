@@ -14,5 +14,13 @@
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+  "routes": [
+    {
+      "pattern": "www.blazeit.app",
+      "custom_domain": true,
+      "override_existing_dns_record": true
+    }
+  ],
+  "workers_dev": true
 }
