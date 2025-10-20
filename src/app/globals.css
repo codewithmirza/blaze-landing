@@ -37,6 +37,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Ensure text alignment works properly with monospace fonts */
+.text-center {
+  text-align: center !important;
+}
+
+/* Fix for monospace font alignment issues */
+.font-mono.text-center {
+  text-align: center !important;
+  display: block;
+}
+
 /* Improve touch targets for mobile */
 @media (max-width: 768px) {
   button, .brutalist-button {

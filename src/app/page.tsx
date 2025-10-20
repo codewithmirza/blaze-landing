@@ -100,8 +100,8 @@ export default function Home() {
             <span className="text-[#FF4500] inline-block hover:scale-110 transition-transform duration-500 delay-300">GAME</span>
           </div>
           
-          <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#111111] mb-8 sm:mb-10 md:mb-12 lg:mb-16 xl:mb-20 max-w-4xl mx-auto px-4 font-mono font-medium uppercase tracking-wider text-center">
-            <span className="inline-block animate-fade-in-up">SWIPE. TRADE. WIN.</span> A GAMIFIED CRYPTO TRADING PLATFORM ON APTOS WITH COMPETITIVE PORTFOLIO QUESTS.
+          <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#111111] mb-8 sm:mb-10 md:mb-12 lg:mb-16 xl:mb-20 max-w-4xl mx-auto px-4 font-mono font-medium uppercase tracking-wider text-center" style={{textAlign: 'center'}}>
+            <span className="animate-fade-in-up">SWIPE. TRADE. WIN.</span> A GAMIFIED CRYPTO TRADING PLATFORM ON APTOS WITH COMPETITIVE PORTFOLIO QUESTS.
           </div>
 
           {/* Enhanced CTA buttons with urgency */}
@@ -254,7 +254,7 @@ export default function Home() {
               <div className="absolute -top-2 -left-2 -right-2 -bottom-2 bg-[#F5F5F5] -z-10 group-hover:bg-[#FF4500] transition-colors duration-300"></div>
               <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-[#111111] group-hover:text-white transition-colors duration-300">🎮</div>
               <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-[#111111] group-hover:text-white transition-colors duration-300 uppercase">GAMIFIED INTERFACE</div>
-              <div className="text-sm sm:text-base md:text-lg text-[#111111] group-hover:text-white transition-colors duration-300 font-mono font-medium uppercase tracking-wider mb-6 max-w-4xl mx-auto text-center">
+              <div className="text-sm sm:text-base md:text-lg text-[#111111] group-hover:text-white transition-colors duration-300 font-mono font-medium uppercase tracking-wider mb-6 max-w-4xl mx-auto text-center" style={{textAlign: 'center'}}>
                 COMBINING WEBGL&apos;S 3D CAPABILITIES WITH SVELTE&apos;S REACTIVE MICROINTERACTIONS TO CREATE AN UNPRECEDENTED TRADING EXPERIENCE.
               </div>
               <div className="border-2 border-[#111111] bg-[#F5F5F5] group-hover:bg-[#111111] text-[#111111] group-hover:text-white p-4 text-center font-mono font-semibold text-sm sm:text-base md:text-lg uppercase transition-all duration-300">
@@ -312,7 +312,7 @@ export default function Home() {
             <span className="text-[#FF4500] inline-block hover:scale-110 transition-transform duration-500 delay-100">BLAZE IT?</span>
           </div>
           
-          <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#111111] mb-16 sm:mb-20 md:mb-24 lg:mb-32 xl:mb-40 max-w-4xl mx-auto px-4 font-mono font-medium uppercase tracking-wider text-center">
+          <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#111111] mb-16 sm:mb-20 md:mb-24 lg:mb-32 xl:mb-40 max-w-4xl mx-auto px-4 font-mono font-medium uppercase tracking-wider text-center" style={{textAlign: 'center'}}>
             JOIN THE REVOLUTIONARY TRADING EXPERIENCE. CONNECT YOUR WALLET AND START SWIPING YOUR WAY TO PROFITS.
           </div>
 
