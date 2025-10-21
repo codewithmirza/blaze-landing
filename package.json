@@ -31,7 +31,7 @@
     "wrangler": "4.21.x"
   },
   "scripts": {
-    "build": "./build.sh",
+    "build": "node .opennext-build.js",
     "build:next": "next build",
     "build:opennext": "opennextjs-cloudflare build",
     "build:full": "next build && opennextjs-cloudflare build",
