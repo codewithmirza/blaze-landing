@@ -7,7 +7,6 @@
   "name": "blaze-landing",
   "main": ".open-next/worker.js",
   "compatibility_date": "2025-10-08",
-  "compatibility_date": "2025-10-08",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
 
   "assets": {
