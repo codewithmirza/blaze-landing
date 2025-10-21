@@ -19,6 +19,12 @@
   },
 
   "upload_source_maps": true,
+  
+  "dev": {
+    "ip": "0.0.0.0",
+    "port": 3001,
+    "local_protocol": "http"
+  },
 
   // 👇 this must be inside the "routes" array instead of "custom_domains"
   "routes": [
@@ -29,5 +35,9 @@
     }
   ],
 
-  "workers_dev": false
+  "workers_dev": true,
+  
+  "vars": {
+    "ENVIRONMENT": "development"
+  }
 }
