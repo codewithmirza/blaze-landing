@@ -65,7 +65,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-4 py-12 sm:px-6 md:px-8 lg:px-12 xl:px-16 w-full overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center px-4 py-12 sm:px-6 md:px-8 lg:px-12 xl:px-16 w-full overflow-hidden mb-8 sm:mb-12 md:mb-16">
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-[#FF4500]/10 rounded-full animate-pulse"></div>
@@ -100,7 +100,7 @@ export default function Home() {
             <span className="text-[#FF4500] inline-block hover:scale-110 transition-transform duration-500 delay-300">GAME</span>
           </div>
           
-          <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#111111] mb-8 sm:mb-10 md:mb-12 lg:mb-16 xl:mb-20 max-w-4xl mx-auto px-4 font-mono font-medium uppercase tracking-wider text-center" style={{textAlign: 'center'}}>
+          <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#111111] mb-8 sm:mb-10 md:mb-12 lg:mb-16 xl:mb-20 max-w-4xl mx-auto px-4 font-mono font-medium uppercase tracking-wider text-center">
             <span className="animate-fade-in-up">SWIPE. TRADE. WIN.</span> A GAMIFIED CRYPTO TRADING PLATFORM ON APTOS WITH COMPETITIVE PORTFOLIO QUESTS.
           </div>
 
@@ -117,7 +117,7 @@ export default function Home() {
           </div>
 
           {/* Social proof */}
-          <div className="text-xs sm:text-sm font-mono text-[#111111]/60 uppercase tracking-wider">
+          <div className="text-xs sm:text-sm font-mono text-[#111111]/60 uppercase tracking-wider mt-8">
             <div className="flex flex-wrap justify-center items-center gap-4">
               <span>⚡ INSTANT EXECUTION</span>
               <span>🎮 GAMIFIED EXPERIENCE</span>
@@ -127,11 +127,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Social Proof Section */}
-      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 w-full bg-white">
+      {/* Social proof and urgency */}
+      <section className="py-20 sm:py-24 md:py-28 lg:py-32 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 w-full bg-white">
         <div className="w-full">
           <div className="text-center mb-12 sm:mb-16">
-            <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#111111] uppercase mb-6">
+            <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#111111] uppercase mb-8">
               JOIN THE REVOLUTION
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-12">
@@ -153,7 +153,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-24 sm:py-32 md:py-40 lg:py-48 xl:py-56 2xl:py-64 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 w-full">
+      <section className="py-24 sm:py-32 md:py-40 lg:py-48 xl:py-56 2xl:py-64 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 w-full bg-[#F5F5F5] mt-8 sm:mt-12 md:mt-16">
         <div className="w-full">
           <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center mb-20 sm:mb-24 md:mb-32 lg:mb-40 text-[#111111] uppercase">
             HOW IT WORKS
@@ -217,7 +217,7 @@ export default function Home() {
       </section>
 
       {/* Interactive Experience */}
-      <section className="py-24 sm:py-32 md:py-40 lg:py-48 xl:py-56 2xl:py-64 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 bg-white w-full">
+      <section className="py-24 sm:py-32 md:py-40 lg:py-48 xl:py-56 2xl:py-64 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 bg-white w-full mt-8 sm:mt-12 md:mt-16">
         <div className="w-full text-center">
           <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-20 sm:mb-24 md:mb-32 lg:mb-40 text-[#111111] uppercase">
             INTERACTIVE EXPERIENCE
@@ -254,7 +254,7 @@ export default function Home() {
               <div className="absolute -top-2 -left-2 -right-2 -bottom-2 bg-[#F5F5F5] -z-10 group-hover:bg-[#FF4500] transition-colors duration-300"></div>
               <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-[#111111] group-hover:text-white transition-colors duration-300">🎮</div>
               <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-[#111111] group-hover:text-white transition-colors duration-300 uppercase">GAMIFIED INTERFACE</div>
-              <div className="text-sm sm:text-base md:text-lg text-[#111111] group-hover:text-white transition-colors duration-300 font-mono font-medium uppercase tracking-wider mb-6 max-w-4xl mx-auto text-center" style={{textAlign: 'center'}}>
+              <div className="text-sm sm:text-base md:text-lg text-[#111111] group-hover:text-white transition-colors duration-300 font-mono font-medium uppercase tracking-wider mb-6 max-w-4xl mx-auto text-center">
                 COMBINING WEBGL&apos;S 3D CAPABILITIES WITH SVELTE&apos;S REACTIVE MICROINTERACTIONS TO CREATE AN UNPRECEDENTED TRADING EXPERIENCE.
               </div>
               <div className="border-2 border-[#111111] bg-[#F5F5F5] group-hover:bg-[#111111] text-[#111111] group-hover:text-white p-4 text-center font-mono font-semibold text-sm sm:text-base md:text-lg uppercase transition-all duration-300">
@@ -266,7 +266,7 @@ export default function Home() {
       </section>
 
       {/* Mobile Touch Experience */}
-      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 w-full bg-[#F5F5F5]">
+      <section className="py-20 sm:py-24 md:py-28 lg:py-32 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 w-full bg-[#F5F5F5] mt-8 sm:mt-12 md:mt-16">
         <div className="w-full text-center">
           <div className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-[#111111] uppercase">
             MOBILE-FIRST DESIGN
@@ -292,7 +292,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 sm:py-32 md:py-40 lg:py-48 xl:py-56 2xl:py-64 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 w-full relative overflow-hidden">
+      <section className="py-24 sm:py-32 md:py-40 lg:py-48 xl:py-56 2xl:py-64 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 w-full relative overflow-hidden bg-[#F5F5F5] mt-8 sm:mt-12 md:mt-16">
         {/* Urgency background elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-1/4 left-1/4 w-40 h-40 bg-[#FF4500]/5 rounded-full animate-pulse"></div>
@@ -312,7 +312,7 @@ export default function Home() {
             <span className="text-[#FF4500] inline-block hover:scale-110 transition-transform duration-500 delay-100">BLAZE IT?</span>
           </div>
           
-          <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#111111] mb-16 sm:mb-20 md:mb-24 lg:mb-32 xl:mb-40 max-w-4xl mx-auto px-4 font-mono font-medium uppercase tracking-wider text-center" style={{textAlign: 'center'}}>
+          <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#111111] mb-16 sm:mb-20 md:mb-24 lg:mb-32 xl:mb-40 max-w-4xl mx-auto px-4 font-mono font-medium uppercase tracking-wider text-center">
             JOIN THE REVOLUTIONARY TRADING EXPERIENCE. CONNECT YOUR WALLET AND START SWIPING YOUR WAY TO PROFITS.
           </div>
 
@@ -329,7 +329,7 @@ export default function Home() {
           </div>
 
           {/* Social proof and urgency */}
-          <div className="text-xs sm:text-sm font-mono text-[#111111]/60 uppercase tracking-wider">
+          <div className="text-xs sm:text-sm font-mono text-[#111111]/60 uppercase tracking-wider mt-8">
             <div className="flex flex-wrap justify-center items-center gap-4 mb-4">
               <span>🔥 1,247 TRADERS ONLINE NOW</span>
               <span>⚡ INSTANT EXECUTION</span>
